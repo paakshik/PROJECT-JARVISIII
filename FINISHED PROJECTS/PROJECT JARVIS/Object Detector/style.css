@@ -1,0 +1,29 @@
+.talk{
+  background-color:blue ;
+  width: 155px;
+  height: 155px;
+ 
+  border-bottom: solid 10px white;
+  border-left: solid 10px white;
+  border-top: solid 10px white;
+  border-right: solid 10px white;
+  
+  border-radius: 50%;
+  top: 50%;
+  left: 700px;
+  right: 30%;
+  bottom: 50%;
+  transform: translate(-50%,-50%);
+  animation: spin2 5s linear  infinite ; 
+position: absolute;
+
+}
+@keyframes spin2{
+    0%{
+      transform: translate(-50%,-50%)rotate(45deg);
+    
+    }
+    100%{
+      transform: translate(-50%,-50%)rotate(405deg);
+    }
+    }

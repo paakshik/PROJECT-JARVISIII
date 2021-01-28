@@ -1,0 +1,991 @@
+body{
+  text-align: right;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+padding-top: 20%;
+padding-right: 50%;
+background-color: black;
+opacity: 70%;
+color-interpolation-filters: initial;
+fill-opacity: unset;
+filter: brightness(200%);
+filter: contrast(150%);
+}
+canvas{
+position: absolute;
+left: 900px;
+top:75%;
+border-radius: 50%;
+
+}
+.im{
+position: absolute;
+left: 85%;
+
+}
+.cir{
+  width: 260px;
+  height: 260px;
+ 
+  border-bottom: solid 5px aqua;
+  border-left: solid 5px aqua;
+  border-top: solid 5px aqua;
+  border-right: solid 5px aqua;
+  text-align: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  top: 10%;
+ 
+  left: 1100px;
+  right: 10%;
+  bottom: 70%;
+  
+  
+position: absolute;
+
+
+}
+
+#ram{
+position: absolute;
+  top: 40%;
+  left: 30%;
+color:aqua;
+text-align: center;
+font: 1em monospace;
+font-size: x-large;
+font-weight: bolder;
+font-style: oblique;
+font-stretch: ultra-expanded;
+font-variant-numeric:proportional-nums;
+font-kerning: inherit;
+font-display: hidden;
+font-variant :inherit;
+text-align: center;
+}
+#reema{
+  position: absolute;
+    top: 35%;
+    left: 4%;
+  color: aqua;
+  text-align: center;
+  font: 1em monospace;
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: oblique;
+  font-stretch: ultra-expanded;
+  font-variant-numeric:proportional-nums;
+  font-kerning: inherit;
+  font-display: hidden;
+  font-variant :inherit;
+  text-align: center;
+  }
+.overlay{
+top: 1000px;
+left: 99%;
+right:-80%;
+}
+.joke{
+border-radius: 50%;
+background-color: black;
+}
+#shram{
+  position: absolute;
+  top: 35%;
+  left: 24%;
+color: aqua;
+text-align: center; 
+text-align: center;
+font: 1em monospace;
+font-size: large;
+font-weight: bolder;
+font-style: oblique;
+font-stretch: ultra-expanded;
+font-variant-numeric:proportional-nums;
+font-kerning: inherit;
+font-display: hidden;
+font-variant :inherit;
+text-align: center;
+}
+#krish{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+color: aqua;
+text-align: center; 
+text-align: center;
+font: 1em monospace;
+font-size: large;
+font-weight: bolder;
+font-style: oblique;
+font-stretch: ultra-expanded;
+font-variant-numeric:proportional-nums;
+font-kerning: inherit;
+font-display: hidden;
+font-variant :inherit;
+text-align: center;
+}
+.pa{
+filter: initial;
+position: absolute;
+top: -30%;
+left: 30%;
+}
+.talks{
+  border-radius : 50%;
+
+
+left: 43%;
+top: 37.1%;
+position: absolute;
+width: 80px;
+height:80px;
+background-color:#52FEFE;
+color: #52FEFE;
+opacity: 0.6;
+
+
+ }
+#rad{
+  position: absolute;
+  top: 40%;
+  left: 26.5%;
+color: aqua;
+text-align: center; 
+text-align: center;
+font: 1em monospace;
+font-size: large;
+font-weight: bolder;
+font-style: oblique;
+font-stretch: ultra-expanded;
+font-variant-numeric:proportional-nums;
+font-kerning: inherit;
+font-display: hidden;
+font-variant :inherit;
+text-align: center;
+}
+#king{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+color: aqua;
+text-align: center; 
+text-align: center;
+font: 1em monospace;
+font-size: small;
+font-weight: bolder;
+font-style: oblique;
+font-stretch: ultra-condensed;
+font-variant-numeric:proportional-nums;
+font-kerning: inherit;
+font-display: hidden;
+font-variant :inherit;
+text-align: center;
+}
+#Jigu{
+  position: absolute;
+  top: 20%;
+  left: 17%;
+color: aqua;
+text-align: center; 
+text-align: center;
+font: 1em monospace;
+font-size: large;
+font-weight: bolder;
+font-style: oblique;
+font-stretch: ultra-expanded;
+font-variant-numeric:proportional-nums;
+font-kerning: inherit;
+font-display: hidden;
+font-variant :inherit;
+text-align: center;
+}
+#Jigus{
+  position: absolute;
+  top: 40%;
+  left: 17%;
+color: aqua;
+text-align: center; 
+text-align: center;
+font: 1em monospace;
+font-size: large;
+font-weight: bolder;
+font-style: oblique;
+font-stretch: ultra-expanded;
+font-variant-numeric:proportional-nums;
+font-kerning: inherit;
+font-display: hidden;
+font-variant :inherit;
+text-align: center;
+}
+#cirs{
+  position: absolute;
+  top: 20%;
+  left: 17%;
+color: aqua;
+text-align: center; 
+text-align: center;
+font: 1em monospace;
+font-size: large;
+font-weight: bolder;
+font-style: oblique;
+font-stretch: ultra-expanded;
+font-variant-numeric:proportional-nums;
+font-kerning: inherit;
+font-display: hidden;
+font-variant :inherit;
+text-align: center;
+}
+#kk{
+  position: absolute;
+  top: 80%;
+  left: 17%;
+
+
+}
+#hammer{
+  position: absolute;
+  top: 31%;
+  left: 19%;
+color: aqua;
+text-align: center; 
+text-align: center;
+font: 1em monospace;
+font-size: large;
+font-weight: bolder;
+font-style: oblique;
+font-stretch: ultra-expanded;
+font-variant-numeric:proportional-nums;
+font-kerning: inherit;
+font-display: hidden;
+font-variant :inherit;
+text-align: center;
+}
+.cir2{
+width: 205px;
+  height: 205px;
+  
+  border-bottom: solid 5px aqua;
+  border-left: solid 5px aqua;
+  border-top: solid 5px aqua;
+  border-right: solid 5px aqua;
+  
+  border-radius: 50%;
+  top: 4%;
+ 
+  left: 920px;
+  right: 10%;
+  bottom: 70%;
+  
+ 
+position: absolute;
+
+
+}
+.cir7{
+  width: 405px;
+    height: 95px;
+    
+    border-bottom: solid 5px aqua;
+    border-left: solid 5px aqua;
+    border-top: solid 5px aqua;
+    border-right: solid 5px aqua;
+    
+    
+    top: 85%;
+   
+    left: 90px;
+    right: 10%;
+    bottom: 70%;
+    text-align: center;
+   
+  position: absolute;
+  
+  
+  }
+  
+.cir6{
+  width: 200px;
+    height: 200px;
+  
+    border-bottom: solid 5px aqua;
+    border-left: solid 5px aqua;
+    border-top: solid 5px aqua;
+    border-right: solid 5px aqua;
+    
+    border-radius: 50%;
+    top: 30%;
+   
+    left: 1000px;
+    right: 10%;
+    bottom: 70%;
+    
+   
+  position: absolute;
+  
+  
+  }
+  
+    #video{
+
+
+
+      position: absolute;
+      left: 900px;
+top:78%;
+border-radius: 50%;
+    }
+    .cir10{
+      width: 250px;
+        height: 250px;
+      
+        border-bottom: solid 5px aqua;
+        border-left: solid 5px hsl(180, 100%, 50%);
+        border-top: solid 5px aqua;
+        border-right: solid 5px aqua;
+        border-radius: 50%;
+      
+        top: 62%;
+       
+        left: 650px;
+        right: 10%;
+        bottom: 70%;
+        
+       
+      position: absolute;
+      
+      
+      }
+      .cir20{
+        width: 180px;
+          height:180px;
+        
+          border-bottom: solid 5px aqua;
+          border-left: solid 5px hsl(180, 100%, 50%);
+          border-top: solid 5px aqua;
+          border-right: solid 5px aqua;
+          border-radius: 50%;
+        
+          top: 62%;
+         
+          left: 250px;
+          right: 10%;
+          bottom: 70%;
+          
+         
+        position: absolute;
+        
+        
+        }
+      
+      #ki{
+        position: absolute;
+        top: 90%;
+        
+      }
+    
+    #Google{
+      border-radius : 50%;
+     top: 105%;
+     background-image: url('Google.png');
+     background-color: aqua;
+     position: absolute;
+     left: 1%;
+    }
+    #kk{
+      border-radius : 50%;
+     top: 105%;
+     background-image: url('bluetooth.png');
+     background-color: aqua;
+     position: absolute;
+     left: 85%;
+    }
+    #Link{
+      border-radius : 50%;
+     top: 105%;
+     background-image: url('clipart3041379.png');
+     background-color: aqua;
+     position: absolute;
+     left: 51%;
+    }
+   
+    #Josua{
+      border-radius : 50%;
+     top: 105%;
+     background-image: url('bluetooth.png');
+     background-color: aqua;
+     position: absolute;
+     left: 44%;
+    }
+   
+    #Mail{
+      border-radius : 50%;
+     top: 105%;
+     background-image: url('bluetooth.png');
+     background-color: aqua;
+     position: absolute;
+     left: 58%;
+    }
+    #Youtube{
+      border-radius : 50%;
+      background-image: url('8iGb5obaT\ \(3\).png');
+      background-color: aqua;
+      filter: saturate(120%);
+      top: 105%;
+      position: absolute;
+      left: 8%;
+    }
+    body{
+      margin: 0;
+  }
+ 
+  .reactor-container{
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      border: 1px dashed #888;
+      position: relative;
+      border-radius: 50%;
+      background-color: #384c50;
+      border: 1px solid rgb(18,20,20);
+      box-shadow: 0px 0px 32px 8px rgb(18,20,20), 0px 0px 4px 1px rgb(18,20,20) inset;
+      position: absolute;
+      left:35%;
+      top: 20%;
+  }
+  .reactor-container-inner{
+      height: 238px;
+      width: 238px;
+      background-color: rgb(22,26,27);
+      box-shadow: 0px 0px 4px 1px #52FEFE;
+  }
+  .circle{
+      border-radius: 50%;
+  }
+  .abs-center{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+  }
+  .core-inner{
+      width: 70px;
+      height: 70px;
+      border: 5px solid #1B4E5F;
+      background-color: #FFFFFF;
+      box-shadow: 0px 0px 7px 5px #52FEFE, 0px 0px 10px 10px #52FEFE inset;
+  }
+  .core-outer{
+      width: 120px;
+      height: 120px;
+      border: 1px solid #52FEFE;
+      background-color: #FFFFFF;
+      box-shadow: 0px 0px 2px 1px #52FEFE, 0px 0px 10px 5px #52FEFE inset;
+  }
+  .core-wrapper{
+      width: 180px;
+      height: 180px;
+      background-color: #073c4b;
+      box-shadow: 0px 0px 5px 4px #52FEFE, 0px 0px 6px 2px #52FEFE inset;
+  }
+  .tunnel{
+      width: 220px;
+      height: 220px;
+      background-color: #FFFFFF;
+      box-shadow: 0px 0px 5px 1px #52FEFE, 0px 0px 5px 4px #52FEFE inset;
+  }
+  .coil-container{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: 3s infinite linear reactor-anim;
+  }
+  .coil{
+      position: absolute;
+      width: 30px;
+      height: 20px;
+      top: calc(50% - 110px);
+      left: calc(50% - 15px);
+      transform-origin: 15px 110px;
+      background-color: #073c4b;
+      box-shadow: 0px 0px 5px #53FEFE inset;
+  }
+  .coil-1{
+      transform: rotate(0deg);
+  }
+  .coil-2{
+      transform: rotate(45deg);
+  }
+  .coil-3{
+      transform: rotate(90deg);
+  }
+  .coil-4{
+      transform: rotate(135deg);
+  }
+  .coil-5{
+      transform: rotate(180deg);
+  }
+  .coil-6{
+      transform: rotate(225deg);
+  }
+  .coil-7{
+      transform: rotate(270deg);
+  }
+  .coil-8{
+      transform: rotate(315deg);
+  }
+  @keyframes reactor-anim{
+      from{
+          transform: rotate(0deg);
+      }
+      to{
+          transform: rotate(360deg);
+      }
+  }
+     #Whatsapp{
+      border-radius : 50%;
+      background-image: url('whatsapp.png');
+      background-color: aqua;
+      top: 105%;
+      position: absolute;
+      left: 17%;
+    }
+   
+    #GoogleM{
+      border-radius : 50%;
+      background-image: url('mmet.png');
+      background-color: aqua;
+      top: 105%;
+      position: absolute;
+      left: 24%;
+    }
+    #Out{
+      border-radius : 50%;
+      background-image: url('outlooks.png');
+      background-color: aqua;
+      top: 105%;
+      position: absolute;
+      left: 37%;
+      width: 90px;
+      height: 90px;
+    }
+    #Gaana{
+      border-radius : 50%;
+      background-image: url('radio.png');
+      background-color: aqua;
+      top: 105%;
+      position: absolute;
+      left: 30%;
+      color: aqua;
+      opacity: 0.9;
+    }
+    .overlay{
+      top: 100%;
+    }
+    .cir8{
+      width: 175px;
+        height: 175px;
+      
+        border-bottom: solid 5px aqua;
+        border-left: solid 5px aqua;
+        border-top: solid 5px aqua;
+        border-right: solid 5px aqua;
+        
+        border-radius: 50%;
+        top: 35%;
+       
+        left: 200px;
+        right: 10%;
+        bottom: 70%;
+        
+       
+      position: absolute;
+      
+      
+      }
+      .cir9{
+        width: 195px;
+          height: 195px;
+        
+          border-bottom: solid 5px aqua;
+          border-left: solid 5px aqua;
+          border-top: solid 5px aqua;
+          border-right: solid 5px aqua;
+          
+          border-radius: 50%;
+          top: 45%;
+         
+          left: 70px;
+          right: 10%;
+          bottom: 70%;
+          
+         
+        position: absolute;
+        
+        
+        }
+      
+  
+.cir11{
+  border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    border:solid 12px rgb(0, 0, 0);
+    border-bottom: solid 12px rgb(160, 245, 245);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir12{
+border-radius: 50%;
+width: 240px;
+height: 240px;
+position :absolute;
+border:solid 12px black ;
+border-right: solid 12px aqua;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%)rotate(45deg);
+animation: spin2 20s linear  infinite  reverse ; 
+}
+.cir3{
+  
+  width: 200px;
+  height: 200px;
+ 
+  border-bottom: solid 2px aqua;
+  border-left: solid 2px aqua;
+  border-top: solid 2px aqua;
+    border-right: solid 2px aqua;
+  
+  border-radius: 50%;
+  top: 10%;
+  left: 10px;
+  right: 10%;
+  bottom: 50%;
+
+ text-align: center;
+position: absolute;
+
+
+}
+.cir22{
+  border-radius: 50%;
+    width: 185px;
+    height: 185px;
+    position: absolute;
+    border:solid 12px rgb(0, 0, 0);
+    border-bottom: solid 12px rgb(160, 245, 245);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir31{
+  border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    border:solid 12px rgb(0, 0, 0);
+    border-bottom: solid 12px rgb(160, 245, 245);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir41{
+  border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border:solid 12px rgb(0, 0, 0);
+    border-bottom: solid 12px rgb(160, 245, 245);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir42{
+  border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border:solid 5px rgb(160, 245, 245);
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir91{
+  border-radius: 50%;
+    width: 167px;
+    height: 167px;
+    position: absolute;
+    border:solid 12px rgb(0, 0, 0);
+    border-bottom: solid 12px rgb(160, 245, 245);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir92{
+  border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border:solid 5px rgb(160, 245, 245);
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir81{
+  border-radius: 50%;
+    width: 157px;
+    height: 157px;
+    position: absolute;
+    border:solid 12px rgb(0, 0, 0);
+    border-bottom: solid 12px rgb(160, 245, 245);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir82{
+  border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    border:solid 5px rgb(160, 245, 245);
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir101{
+  border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    border:solid 12px rgb(0, 0, 0);
+    border-bottom: solid 12px rgb(160, 245, 245);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+.cir201{
+  border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border:solid 12px rgb(0, 0, 0);
+    border-bottom: solid 12px rgb(160, 245, 245);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+
+.cir102{
+
+    width: 211px;
+    height: 90px;
+    position: absolute;
+    border:solid 5px rgb(160, 245, 245);
+    
+    top: 26%;
+    left: 8%;
+   
+    
+ 
+  
+
+}
+.cir61{
+  border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    border:solid 12px rgb(0, 0, 0);
+    border-bottom: solid 12px rgb(160, 245, 245);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    animation: spin2 20s linear  infinite  forwards ; 
+    
+ 
+  
+
+}
+#backed{
+position: absolute;
+width: 2300px;
+height:1900px;
+
+}
+.cir62{
+
+    width:120px;
+    height: 60px;
+    position: absolute;
+    border:solid 5px rgb(160, 245, 245);
+    
+    top: 31%;
+    left: 13%;
+   
+    
+ 
+  
+
+}
+
+.cir13{
+  width: 160px;
+  height: 160px;
+ 
+  border-bottom: solid 7px aqua;
+  border-left: solid 7px aqua;
+  border-top: solid 7px aqua;
+  border-right: solid 7px aqua;
+  
+  border-radius: 50%;
+  top: 18%;
+  left: 40px;
+  right: 10%;
+  bottom: 50%;
+
+ text-align: center;
+position: absolute;
+}
+.cir21{
+  width: 160px;
+  height: 160px;
+ 
+  border-bottom: solid 7px aqua;
+  border-left: solid 7px aqua;
+  border-top: solid 7px aqua;
+  border-right: solid 7px aqua;
+  
+  border-radius: 50%;
+  top: 8%;
+  left: 15px;
+  right: 10%;
+  bottom: 50%;
+
+ text-align: center;
+position: absolute;
+}
+
+.cir4{
+  width: 155px;
+  height: 155px;
+
+  border-bottom: solid 5px aqua;
+  border-left: solid 5px aqua;
+  border-top: solid 5px hsl(180, 100%, 50%);
+  border-right: solid 5px aqua;
+  
+  border-radius: 50%;
+  top: 2%;
+  left:170px;
+  right: 10%;
+  bottom: 50%;
+ 
+position: absolute;
+
+
+}
+.cir36{
+  width: 135px;
+  height: 135px;
+
+  border-bottom: solid 5px aqua;
+  border-left: solid 5px aqua;
+  border-top: solid 5px aqua;
+  border-right: solid 5px aqua;
+  
+  border-radius: 50%;
+  top: 50%;
+  left: 100px;
+  right: 10%;
+  bottom: 60%;
+  
+  animation: spin2 5s linear  infinite ; 
+position: absolute;
+
+
+
+
+
+
+}
+
+@keyframes spin2{
+    0%{
+      transform: translate(-50%,-50%)rotate(45deg);
+    
+    }
+    100%{
+      transform: translate(-50%,-50%)rotate(405deg);
+    }
+    }
